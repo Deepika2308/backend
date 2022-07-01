@@ -46,7 +46,7 @@ app.get("/getCities",async function(req,res){
 })
 
 app.get("/",function(req,res){
-    res.send("Hi this is express");
+    res.send("This is an API");
 })
 
 app.get("/getMovies", async function(req,res){
